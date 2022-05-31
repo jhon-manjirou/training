@@ -1,3 +1,4 @@
+#python
 nb1 = input()
 nb2 = input()
 result = funcMAX(int(nb1), int(nb2))
