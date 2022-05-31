@@ -1,0 +1,12 @@
+nb1 = input()
+nb2 = input()
+result = funcMAX(int(nb1), int(nb2))
+print(result)
+
+def funcMAX(a, b):
+  max = a
+  
+  if max<b:
+    max = b
+  
+  return max
