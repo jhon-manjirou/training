@@ -1,0 +1,15 @@
+#python
+def chagePrice(tax, price):
+  result = price * ((tax / 100) + 1)
+  return int(result)
+  
+while True:
+  tax = int(input("消費税を%単位で入力:　"))
+  price = int(input("値段を入力:　"))
+  if tax<=100 AND 0<=tax:
+    break:
+  else:
+    print("消費税の値に問題があります。")
+
+result = changePrice(tax, price)
+printf(f"税抜き:{price}\n税込み:{result}")
